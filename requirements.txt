@@ -1,0 +1,11 @@
+asgiref
+Django
+joblib
+pytz
+scikit-learn
+scipy
+sqlparse
+threadpoolctl
+gunicorn
+whitenoise
+pandas
