@@ -58,9 +58,7 @@
     {% block content %}
     {% endblock content %}
 
-    <!--<iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/1bf5215d-95b6-40fd-95e9-0f927af53ad1"></iframe>-->
-
-    <!--<div class="container">
+    <div class="container">
         <div class="row">
           <div id="Smallchat">
         <div class="Layout Layout-open Layout-expand Layout-right" >
@@ -73,9 +71,6 @@
             </div>
             <div class="Messenger_content">
               <div class="Messages" id="main">
-                <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/1bf5215d-95b6-40fd-95e9-0f927af53ad1"></iframe>
-              </div>-->
-              <!--<div class="Messages" id="main">
                 <p id="data" hidden>{{data}}</p>
                   <form action="chatbot/" hidden>
                       <textarea placeholder="Please enter the details of the accident" id="request" name="description"></textarea> 
@@ -85,24 +80,21 @@
               </div>
             </div>
           </div>
-        </div>-->
-        <!--===============CHAT ON BUTTON STRART===============-->
-        
-        <!--<a href="{% url 'chatbot' %}">
-          <img class="chat_on" src="{% static 'images/chat.png' %}" >
-        </a>--> 
-        <!--===============CHAT ON BUTTON END===============-->
-      <!--</div>
         </div>
-    </div>-->
+        
+        <img class="chat_on" src="{% static 'images/chat.png' %}" >
 
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      </div>
+        </div>
+    </div>
+
+    <!--<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
   chat-title="Industry_Accident_Prediction"
   agent-id="1bf5215d-95b6-40fd-95e9-0f927af53ad1"
   language-code="en"
-></df-messenger>
+></df-messenger>-->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
